@@ -12,6 +12,7 @@ header {
     padding: 0 20px;
     position: absolute;
     right: 0;
+    z-index: 99;
 }
 
 header .logo {
@@ -43,6 +44,67 @@ header nav div:hover {
     border-bottom: 1px solid white;
 }
 
+.banner {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
 .banner img {
     width: 100%;
+}
+
+.search-box {
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 20%;
+    padding: 15px 20px;
+    position: absolute;
+    width: 30%;
+}
+
+.search-box label {
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.search-box h2 {
+    margin: 5px 0;
+}
+
+.search-box input {
+    padding: 5px;
+}
+
+.search-box > div {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.search-box > button {
+    align-self: flex-end;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff5a5f;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-50 {
+    width: 50%;
 }
