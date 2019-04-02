@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+}
+
+header .logo {
+    height: 40%;
+}
+
+header .logo img {
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+header nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header nav div {
+    border-bottom: 1px solid transparent;
+    padding: 10px;
+}
+
+header nav div:hover {
+    border-bottom: 1px solid white;
+}
+
+.banner img {
+    width: 100%;
+}
